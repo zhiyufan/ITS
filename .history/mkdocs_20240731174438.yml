@@ -1,0 +1,82 @@
+nav:
+  - Home: 'index.md'
+  - Getting Started: 
+    - Tool: 'tool.md'
+    - Installation: 'start/installation.md'
+    - Configuration: 'start/configuration.md'
+    - Customization: 'start/customization.md'
+  - Documentation:
+    - Overview: 'documentation/overview.md'
+    - Workflow: 'documentation/workflow.md'
+    - Troubleshooting: 'documentation/troubleshooting.md'
+    - Migration Guide: 'documentation/migration.md'
+    - Changelog: 'documentation/changelog.md'
+    - License: 'documentation/license.md'
+  - Relevant Courses:
+    - CS3213: #- Foundations of Software Engineering: 
+      - Introduction: 'courses/cs3213/intro.md'
+      - Lecture Material:
+        - Lecture : 'courses/cs3213/lecture.md'
+        - Lecture (Project): 'courses/cs3213/lecture_p.md'
+      - Project:
+        - Overview: 'courses/cs3213/project/intro.md'
+        - Workflow: 'courses/cs3213/project/workflow.md'
+        - Topics: 'courses/cs3213/project/topics.md'
+    - CS1010S: # - Programming Methodology: 
+      - Introduction: 'courses/cs1010s/intro.md'
+      - Teaching Platform: 'courses/cs1010s/platform.md'
+      - Web Browser Plugin: 'courses/cs1010s/plugin.md'
+      - Discord Group Teaching Bot: 'courses/cs1010s/bot.md'
+    - CS2040S: # - Data Structures and Algorithms: 'courses/cs2040s/intro.md'
+  
+  - Collaboration: 'collaboration.md'
+  - Intellectual Property: 'ip.md'
+
+theme:
+  name: material
+  palette:
+    primary: blue grey
+  shortcuts:
+    previous: 72 #h
+    next: 76 #l
+    search: 191 #/
+
+site_name: Intelligent Tutoring System of Programming Education
+# repo_url: https://github.com/nus-cs1010/1819-s1
+site_url: https://cs3213-fse.github.io/cs3213-fse
+copyright: Copyright by Department of Computer Science, National University of Singapore, 2024.
+# remote_branch: gh-pages
+use_directory_urls: false
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+     linenums: true
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tilde
+  # - pymdownx.emoji:
+  #     emoji_index: !!python/name:materialx.emoji.twemoji
+  #     emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+
+extra_css:
+  - 'stylesheets/extra.css'
+  - 'https://fonts.googleapis.com/css?family=Roboto:400,700'
+  - 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'

@@ -1,0 +1,1 @@
+If you are a researcher or teaching staff at a university and are interested in adopting our resources for your teaching purpose, please get in touch with <abhik@comp.nus.edu.sg>.

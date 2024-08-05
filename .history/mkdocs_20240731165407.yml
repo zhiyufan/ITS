@@ -1,0 +1,73 @@
+nav:
+  - Home: 'index.md'
+  # - General:
+    #- About CS3213: 'about.md'
+    #- Schedule: 'schedule.md'
+    # - Teaching Team: 'tutors.md'
+  - Courses:
+    - CS3213 - Foundations of Software Engineering: 'courses/cs3213.md'
+    - CS1010S - Programming Methodology: 'courses/cs1010s.md'
+    - CS2040S - Data Structures and Algorithms: 'courses/cs2040s.md'
+  - Lecture Material:
+    - Lecture : 'lecture.md'
+    - Lecture (Project): 'lecture_p.md'
+  # - Assignments:
+  #   - Overview: 'assignment_overview.md'
+  #   - Week 1: 'assign_week_1.md'
+  - Project:
+    - Overview: 'project/intro.md'
+    - Workflow: 'project/workflow.md'
+    - Topics: 'project/topics.md'
+    #- Readings: 'project/readings.md'
+    #- Examples: 'project/examples.md'
+    #- Postman: 'project/readings.md'
+  - Collaboration: 'collaboration.md'
+
+theme:
+  name: material
+  palette:
+    primary: blue grey
+  shortcuts:
+    previous: 72 #h
+    next: 76 #l
+    search: 191 #/
+
+site_name: CS3213 Foundations of Software Engineering
+# repo_url: https://github.com/nus-cs1010/1819-s1
+site_url: https://cs3213-fse.github.io/cs3213-fse
+copyright: Copyright by Department of Computer Science, National University of Singapore, 2022.
+# remote_branch: gh-pages
+use_directory_urls: false
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.highlight:
+     linenums: true
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.superfences
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+
+extra_css:
+  - 'stylesheets/extra.css'
+  - 'https://fonts.googleapis.com/css?family=Roboto:400,700'
+  - 'https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'
